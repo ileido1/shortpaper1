@@ -1,5 +1,6 @@
 export class Doctor{};
 export class Paciente{};
+export class Especialidad{};
 
 class Historia_Medica {
     

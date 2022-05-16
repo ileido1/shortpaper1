@@ -1,4 +1,5 @@
 export class Usuario{};
+export class Especialidad{};
 
 class Doctor  extends Usuario{
  
