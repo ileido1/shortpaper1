@@ -1,3 +1,5 @@
+export class Usuario{};
+
 class Paciente extends Usuario {
     
     edad : number;
