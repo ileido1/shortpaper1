@@ -2,6 +2,7 @@
 import { Doctor } from "./doctor";
 import { Paciente } from "./paciente";
 import { Especialidad } from "./especialidad";
+
 export class Historia_Medica {
   
     colesterol: string;
@@ -11,6 +12,7 @@ export class Historia_Medica {
     peso:  number;
     altura : number;
     especialidad : Especialidad;
+    Paciente : Paciente;
 
 
     crearHistoriaMedica (especialidad: Especialidad):void{
