@@ -1,0 +1,5 @@
+interface Consulta {
+
+    crearHistoriaMedica():void;
+
+}
