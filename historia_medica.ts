@@ -1,7 +1,8 @@
-export class Doctor{};
-export class Paciente{};
 
-class Historia_Medica {
+import { Doctor } from "./doctor";
+import { Paciente } from "./paciente";
+import { Especialidad } from "./especialidad";
+export class Historia_Medica {
     
     doctor: Doctor;
     paciente: Paciente;
@@ -11,6 +12,7 @@ class Historia_Medica {
     frecuencia_cardica :string;
     peso:  number;
     altura : number;
+    especialidad : Especialidad;
 
 
     crearHistoriaMedica (especialidad: Especialidad):void{

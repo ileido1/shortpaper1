@@ -1,4 +1,4 @@
-class Especialidad {
+export class Especialidad {
     nombre: string;
     
     constructor(nombre:string) {

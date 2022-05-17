@@ -1,6 +1,5 @@
-export class Usuario{};
-
-class Paciente extends Usuario {
+import { Usuario } from "./usuario";
+export class Paciente extends Usuario {
     
     edad : number;
     profesion : string;
